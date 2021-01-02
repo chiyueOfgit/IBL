@@ -13,10 +13,54 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{2c3462bf-adf1-4330-9d88-5ff9e0e23ceb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\textures">
+      <UniqueIdentifier>{d452a7e2-5a38-486d-ae17-65e7100299a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\textures\hdr">
+      <UniqueIdentifier>{f68d62fa-9a80-48c1-92a1-d263ffbc8d4c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="D:\OpenGL\glad.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="ibl_irradiance_conversion.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\Downloads\newport_loft.hdr">
+      <Filter>resources\textures\hdr</Filter>
+    </None>
+    <None Include="2.1.1.pbr.vert" />
+    <None Include="2.1.1.pbr.frag" />
+    <None Include="2.1.1.cubemap.vert" />
+    <None Include="2.1.1.equirectangular_to_cubemap.frag" />
+    <None Include="2.1.1.background.vert" />
+    <None Include="2.1.1.background.frag" />
+    <None Include="newport_loft.hdr" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

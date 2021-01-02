@@ -143,6 +143,25 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="D:\OpenGL\glad.c" />
+    <ClCompile Include="ibl_irradiance_conversion.cpp" />
+    <ClCompile Include="stb_image.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\Downloads\newport_loft.hdr" />
+    <None Include="2.1.1.background.frag" />
+    <None Include="2.1.1.background.vert" />
+    <None Include="2.1.1.cubemap.vert" />
+    <None Include="2.1.1.equirectangular_to_cubemap.frag" />
+    <None Include="2.1.1.pbr.frag" />
+    <None Include="2.1.1.pbr.vert" />
+    <None Include="newport_loft.hdr" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="mesh.h" />
+    <ClInclude Include="model.h" />
+    <ClInclude Include="shader.h" />
+    <ClInclude Include="stb_image.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
