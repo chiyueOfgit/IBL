@@ -13,15 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="resources">
-      <UniqueIdentifier>{2c3462bf-adf1-4330-9d88-5ff9e0e23ceb}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="resources\textures">
-      <UniqueIdentifier>{d452a7e2-5a38-486d-ae17-65e7100299a0}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="resources\textures\hdr">
-      <UniqueIdentifier>{f68d62fa-9a80-48c1-92a1-d263ffbc8d4c}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="D:\OpenGL\glad.c">
@@ -33,11 +24,23 @@
     <ClCompile Include="stb_image.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="1.1.lighting\lighting.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1.2.lighting_textured\lighting_textured.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2.1.2.ibl_irradiance\ibl_irradiance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2.2.1.ibl_specular\ibl_specular.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2.2.2.ibl_specular_textured\ibl_specular_textured.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\Downloads\newport_loft.hdr">
-      <Filter>resources\textures\hdr</Filter>
-    </None>
     <None Include="2.1.1.pbr.vert" />
     <None Include="2.1.1.pbr.frag" />
     <None Include="2.1.1.cubemap.vert" />
@@ -45,6 +48,37 @@
     <None Include="2.1.1.background.vert" />
     <None Include="2.1.1.background.frag" />
     <None Include="newport_loft.hdr" />
+    <None Include="1.1.lighting\1.1.pbr.frag" />
+    <None Include="1.1.lighting\1.1.pbr.vert" />
+    <None Include="1.2.lighting_textured\1.2.pbr.frag" />
+    <None Include="1.2.lighting_textured\1.2.pbr.vert" />
+    <None Include="2.1.2.ibl_irradiance\2.1.2.background.frag" />
+    <None Include="2.1.2.ibl_irradiance\2.1.2.background.vert" />
+    <None Include="2.1.2.ibl_irradiance\2.1.2.cubemap.vert" />
+    <None Include="2.1.2.ibl_irradiance\2.1.2.equirectangular_to_cubemap.frag" />
+    <None Include="2.1.2.ibl_irradiance\2.1.2.irradiance_convolution.frag" />
+    <None Include="2.1.2.ibl_irradiance\2.1.2.pbr.frag" />
+    <None Include="2.1.2.ibl_irradiance\2.1.2.pbr.vert" />
+    <None Include="2.2.1.ibl_specular\2.2.1.background.frag" />
+    <None Include="2.2.1.ibl_specular\2.2.1.background.vert" />
+    <None Include="2.2.1.ibl_specular\2.2.1.brdf.frag" />
+    <None Include="2.2.1.ibl_specular\2.2.1.brdf.vert" />
+    <None Include="2.2.1.ibl_specular\2.2.1.cubemap.vert" />
+    <None Include="2.2.1.ibl_specular\2.2.1.equirectangular_to_cubemap.frag" />
+    <None Include="2.2.1.ibl_specular\2.2.1.irradiance_convolution.frag" />
+    <None Include="2.2.1.ibl_specular\2.2.1.pbr.frag" />
+    <None Include="2.2.1.ibl_specular\2.2.1.pbr.vert" />
+    <None Include="2.2.1.ibl_specular\2.2.1.prefilter.frag" />
+    <None Include="2.2.2.ibl_specular_textured\2.2.2.background.frag" />
+    <None Include="2.2.2.ibl_specular_textured\2.2.2.background.vert" />
+    <None Include="2.2.2.ibl_specular_textured\2.2.2.brdf.frag" />
+    <None Include="2.2.2.ibl_specular_textured\2.2.2.brdf.vert" />
+    <None Include="2.2.2.ibl_specular_textured\2.2.2.cubemap.vert" />
+    <None Include="2.2.2.ibl_specular_textured\2.2.2.equirectangular_to_cubemap.frag" />
+    <None Include="2.2.2.ibl_specular_textured\2.2.2.irradiance_convolution.frag" />
+    <None Include="2.2.2.ibl_specular_textured\2.2.2.pbr.frag" />
+    <None Include="2.2.2.ibl_specular_textured\2.2.2.pbr.vert" />
+    <None Include="2.2.2.ibl_specular_textured\2.2.2.prefilter.frag" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="shader.h">

@@ -142,18 +142,53 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="1.1.lighting\lighting.cpp" />
+    <ClCompile Include="1.2.lighting_textured\lighting_textured.cpp" />
+    <ClCompile Include="2.1.2.ibl_irradiance\ibl_irradiance.cpp" />
+    <ClCompile Include="2.2.1.ibl_specular\ibl_specular.cpp" />
+    <ClCompile Include="2.2.2.ibl_specular_textured\ibl_specular_textured.cpp" />
     <ClCompile Include="D:\OpenGL\glad.c" />
     <ClCompile Include="ibl_irradiance_conversion.cpp" />
     <ClCompile Include="stb_image.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\Downloads\newport_loft.hdr" />
+    <None Include="1.1.lighting\1.1.pbr.frag" />
+    <None Include="1.1.lighting\1.1.pbr.vert" />
+    <None Include="1.2.lighting_textured\1.2.pbr.frag" />
+    <None Include="1.2.lighting_textured\1.2.pbr.vert" />
     <None Include="2.1.1.background.frag" />
     <None Include="2.1.1.background.vert" />
     <None Include="2.1.1.cubemap.vert" />
     <None Include="2.1.1.equirectangular_to_cubemap.frag" />
     <None Include="2.1.1.pbr.frag" />
     <None Include="2.1.1.pbr.vert" />
+    <None Include="2.1.2.ibl_irradiance\2.1.2.background.frag" />
+    <None Include="2.1.2.ibl_irradiance\2.1.2.background.vert" />
+    <None Include="2.1.2.ibl_irradiance\2.1.2.cubemap.vert" />
+    <None Include="2.1.2.ibl_irradiance\2.1.2.equirectangular_to_cubemap.frag" />
+    <None Include="2.1.2.ibl_irradiance\2.1.2.irradiance_convolution.frag" />
+    <None Include="2.1.2.ibl_irradiance\2.1.2.pbr.frag" />
+    <None Include="2.1.2.ibl_irradiance\2.1.2.pbr.vert" />
+    <None Include="2.2.1.ibl_specular\2.2.1.background.frag" />
+    <None Include="2.2.1.ibl_specular\2.2.1.background.vert" />
+    <None Include="2.2.1.ibl_specular\2.2.1.brdf.frag" />
+    <None Include="2.2.1.ibl_specular\2.2.1.brdf.vert" />
+    <None Include="2.2.1.ibl_specular\2.2.1.cubemap.vert" />
+    <None Include="2.2.1.ibl_specular\2.2.1.equirectangular_to_cubemap.frag" />
+    <None Include="2.2.1.ibl_specular\2.2.1.irradiance_convolution.frag" />
+    <None Include="2.2.1.ibl_specular\2.2.1.pbr.frag" />
+    <None Include="2.2.1.ibl_specular\2.2.1.pbr.vert" />
+    <None Include="2.2.1.ibl_specular\2.2.1.prefilter.frag" />
+    <None Include="2.2.2.ibl_specular_textured\2.2.2.background.frag" />
+    <None Include="2.2.2.ibl_specular_textured\2.2.2.background.vert" />
+    <None Include="2.2.2.ibl_specular_textured\2.2.2.brdf.frag" />
+    <None Include="2.2.2.ibl_specular_textured\2.2.2.brdf.vert" />
+    <None Include="2.2.2.ibl_specular_textured\2.2.2.cubemap.vert" />
+    <None Include="2.2.2.ibl_specular_textured\2.2.2.equirectangular_to_cubemap.frag" />
+    <None Include="2.2.2.ibl_specular_textured\2.2.2.irradiance_convolution.frag" />
+    <None Include="2.2.2.ibl_specular_textured\2.2.2.pbr.frag" />
+    <None Include="2.2.2.ibl_specular_textured\2.2.2.pbr.vert" />
+    <None Include="2.2.2.ibl_specular_textured\2.2.2.prefilter.frag" />
     <None Include="newport_loft.hdr" />
   </ItemGroup>
   <ItemGroup>
